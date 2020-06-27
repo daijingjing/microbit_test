@@ -1,0 +1,22 @@
+{
+    "name": "test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "SSD1306_OLED": "github:zhuning239/oled12864#955094736abba3fe3a60fc1cdbc89d40436c5259"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
